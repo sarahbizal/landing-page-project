@@ -1,0 +1,109 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 375px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    align-self: center;
+    /*Items I was playing around with to move elements
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: auto;
+    padding-left: 70px; I'm not sure if this is the best solution?*/
+}
+
+.nav {
+    display: flex;
+    align-content: flex-start;
+}
+
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+/*for the hero banner I need to get the flexboxes to center on the page and then be closer to each other*/
+
+.hero-heading {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 16px;
+    text-wrap: wrap; /*I'm not sure about this. I suspect that I should be able to use flexbox to get it to wrap*/
+    max-width: 530px; /*probably not ideal to hardcode a value...*/
+}
+
+/*I need to figure out how to get hero text and button to be the right sized and also button to appear under hero text*/
+.hero-text {
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.hero-right {
+    padding: 75px;
+    background-color: grey;
+    color: #f9faf8;
+    display: flex;
+    align-content: center;
+}
+
+.hero-text-right {
+    display: flex;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+}
