@@ -134,6 +134,34 @@ button {
     height: 150px;
     text-align: center;
 }
+.quote-banner {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.quote-header {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 700px;
+    text-align: start;
+    display: flex;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.quote-text {
+    font-size: 20px;
+    display: flex;
+    align-content: flex-start;
+    align-self: center;
+    margin-top: 0;
+}
 
 .footer {
     background-color: #1f2937;
