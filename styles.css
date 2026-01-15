@@ -63,6 +63,7 @@ li {
 .hero-left {
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
 }
 
 /*for the hero banner I need to get the flexboxes to center on the page and then be closer to each other*/
@@ -71,9 +72,9 @@ li {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    padding: 16px;
     text-wrap: wrap; /*I'm not sure about this. I suspect that I should be able to use flexbox to get it to wrap*/
     max-width: 530px; /*probably not ideal to hardcode a value...*/
+    margin: 0;
 }
 
 /*I need to figure out how to get hero text and button to be the right sized and also button to appear under hero text*/
@@ -88,7 +89,7 @@ button {
     color: #f9faf8;
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .hero-right {
