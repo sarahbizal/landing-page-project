@@ -105,6 +105,36 @@ button {
     align-self: center;
 }
 
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image {
+    width: 150px;
+    margin: 25px;
+    color: #e5e7eb;
+}
+.images-text {
+    color: grey;
+    text-align: center;
+}
+
+.image-box {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    text-align: center;
+}
+
 .footer {
     background-color: #1f2937;
 }
