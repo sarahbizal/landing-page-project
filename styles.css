@@ -162,7 +162,34 @@ button {
     align-self: center;
     margin-top: 0;
 }
-
+.action-banner {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 70px;
+}
+.action-container {
+    margin: 100px 500px;
+}
+.action {
+    padding: 20px;
+}
+.action-header {
+    margin-bottom: 0;
+}
+.action-text {
+    margin-top: 0;
+}
+.action-button {
+    border: 1px solid white;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
 .footer {
     background-color: #1f2937;
 }
